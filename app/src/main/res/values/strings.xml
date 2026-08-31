@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Thoughtful Pheasant</string>
+    <string name="app_title">The\nThoughtful\nPheasant</string>
+    <string name="about_popup_title">The Thoughtful Pheasant</string>
+    <string name="unmute_voice">Unmute voice</string>
+    <string name="mute_voice">Mute voice</string>
+    <string name="editor_screen">Editor</string>
+    <string name="tap_for_roast">Tap for roast</string>
+    <string name="initial_phrase">Tap the bird!</string>
+    <string name="loading_voice_engine">Loading voice engine</string>
+    <string name="about_title">About</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="copyright_info">© 2026 MacsonProjects</string>
+    <string name="licence_info">Licenced under the MIT Licence.</string>
+    <string name="github_repository">Github Repository</string>
+    <string name="close_button">Close</string>
+    <string name="about_content_description">Show About information</string>
+    <string name="previous_category">Previous Category</string>
+    <string name="next_category">Next Category</string>
+
+    <!-- Deletion Confirmation -->
+    <string name="delete_category_confirmation_title">Delete Category?</string>
+    <string name="delete_category_confirmation_message">Are you sure you want to delete the category \"%1$s\" and all its phrases? This cannot be undone.</string>
+    <string name="delete_phrase_confirmation_title">Delete Phrase?</string>
+    <string name="delete_phrase_confirmation_message">Are you sure you want to delete this phrase?</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
