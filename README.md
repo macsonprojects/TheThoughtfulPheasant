@@ -1,40 +1,51 @@
-# Thoughtful Pheasant 🦚
+# The Thoughtful Pheasant 
 
-A modern, interactive Android application that generates "thoughtful" (and sometimes spicy) phrases based on your mood. Built with Jetpack Compose, Material 3, and modern Android architecture.
+## Tap the pheasant. Get a random quote. That's the app.
 
-## Features
+This app started as a joke, and it's grown into something more - an app that reads out quotes, sayings, cheesy pick-up lines, Bible passages - whatever you want it to. It was made with obscene amounts of industrial-strength coffee, and much patience from several AI models. This has been a good exercise in learning the basics of Kotlin and good app architecture, and a painful experience in the importance of effective project management.  
 
-- **Mood Selector**: Use the endless horizontal pager to choose your vibe:
-  - *Inspire Me*: British politeness at its best.
-  - *Thoughtful*: Observational and witty.
-  - *Roast Me*: For those who can handle a bit of heat.
-- **Voice Synthesis**: Uses the system Text-To-Speech engine to read phrases aloud with varying pitch and speed.
-- **Mood Editor**: Fully customizable! Add your own categories and phrases, or edit/delete existing ones.
-- **Persistent Storage**: All your custom moods and phrases are saved locally using Android DataStore.
-- **Adaptive UI**: Clean Material 3 design with smooth animations.
+## What it does
 
-## Tech Stack
+<img src="Pix go here"
+	align="right"
+    width="180"
+    style="margin-left:20px; margin-bottom:20px;" />
+  
+- **Tap the pheasant** - It will read out a random phrase from your chosen category.
+  
+- **Change Moods** - Swipe the pager to scroll through your Mood categories, for example:
 
-- **UI**: [Jetpack Compose](https://developer.android.com/jetpack/compose) (100% Declarative)
-- **Navigation**: [Navigation Compose](https://developer.android.com/jetpack/compose/navigation)
-- **Persistence**: [DataStore Preferences](https://developer.android.com/topic/libraries/architecture/datastore)
-- **Serialization**: [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization) (JSON)
-- **Architecture**: MVVM with `Flow` and `ViewModel`
-- **Voice**: Android TextToSpeech API
+  - **Inspire Me** - Inspirational quotes.
 
-## Installation
+  - **Thoughtful** - Thoughtful quotes.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MacsonProjects/ThoughtfulPheasant.git
-   ```
-2. Open the project in **Android Studio Ladybug** or newer.
-3. Build and run on an Android device (Min SDK 24).
+  - **Roast Me** - It started as a joke app, after all!
 
-## License
+- **Vocals** - Text-to-speech reads the phrase out loud, using your device's default locale and voice.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Mute button** - Sometimes *not* sharing is caring.
 
-## Author
+- **No repeats** - Phrases are pulled from a shuffled pool so you shouldn't get the same phrase twice in a row.
+  
+- **Editor Screen** - Add, edit and delete categories and phrases in the Editor Screen
 
-Created by [MacsonProjects](https://github.com/MacsonProjects)
+## Known Issues
+See that Outlined.Info icon? On my old phone, it sits smack-bang in the center of the sun, almost as if I planned it that way. On my new phone? No chance. Does that bug me? Yes. Am I going to fix it? No. 
+
+## Tech stack
+Kotlin + Jetpack Compose, Material 3, Android's built-in TextToSpeech API. Nothing exotic - this was built to make a chatty bird, not to showcase my noobish knowledge of good app architecture.
+
+## Running it locally
+Clone or download this repo.
+Open it in Android Studio.
+Let Gradle sync.
+Run the app on a device or emulator.
+
+Needs Android Studio Ladybug or newer, targeting Android 14 (SDK 34+).
+
+## License:
+MIT - see [LICENSE]().
+
+© 2026 MacsonProjects
+
+If you found this project useful, [donations](https://ko-fi.com/macsonprojects) are welcome but not expected, or pay it forward somewhere else in life.
