@@ -35,6 +35,9 @@ See that Outlined.Info icon? On my old phone, it sits smack-bang in the center o
 ## Tech stack
 Kotlin + Jetpack Compose, Material 3, Android's built-in TextToSpeech API. Nothing exotic - this was built to make a chatty bird, not to showcase my noobish knowledge of good app architecture.
 
+## Download
+[**Download the latest APK**](https://github.com/macsonprojects/TheThoughtfulPheasant/releases/download/v1.0/TTP-v1.0.apk)
+
 ## Running it locally
 Clone or download this repo.
 Open it in Android Studio.
@@ -43,7 +46,7 @@ Run the app on a device or emulator.
 
 Needs Android Studio Ladybug or newer, targeting Android 14 (SDK 34+).
 
-## License:
+## License
 MIT - see [LICENSE](LICENSE).
 
 © 2026 MacsonProjects
