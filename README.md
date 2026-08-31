@@ -44,7 +44,7 @@ Run the app on a device or emulator.
 Needs Android Studio Ladybug or newer, targeting Android 14 (SDK 34+).
 
 ## License:
-MIT - see [LICENSE]().
+MIT - see [LICENSE](LICENSE).
 
 © 2026 MacsonProjects
 
