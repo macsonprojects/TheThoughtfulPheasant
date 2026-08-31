@@ -1,12 +1,12 @@
 # The Thoughtful Pheasant 
 
-## Tap the pheasant. Get a random quote. That's the app.
+## Tap the pheasant. Get a random phrase. That's the app.
 
 This app started as a joke, and it's grown into something more - an app that reads out quotes, sayings, cheesy pick-up lines, Bible passages - whatever you want it to. It was made with obscene amounts of industrial-strength coffee, and much patience from several AI models. This has been a good exercise in learning the basics of Kotlin and good app architecture, and a painful experience in the importance of effective project management.  
 
 ## What it does
 
-<img src="Pix go here"
+<img src="assets/20260831_163137_Thoughtful Pheasant_cr.jpg"
 	align="right"
     width="180"
     style="margin-left:20px; margin-bottom:20px;" />
@@ -21,7 +21,7 @@ This app started as a joke, and it's grown into something more - an app that rea
 
   - **Roast Me** - It started as a joke app, after all!
 
-- **Vocals** - Text-to-speech reads the phrase out loud, using your device's default locale and voice.
+- **Vocals** - Text-to-speech reads the phrase out loud, using your device's default locale and voice settings.
 
 - **Mute button** - Sometimes *not* sharing is caring.
 
